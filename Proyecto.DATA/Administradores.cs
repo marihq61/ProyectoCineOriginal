@@ -15,8 +15,7 @@ namespace Proyecto.DATA
         public string Apellido { get; set; }
 
         public string Contraseña { get; set; }
-
-        public int cedula { get; set; }
+        
 
     }
 }

@@ -14,8 +14,6 @@ namespace Proyecto.DATA
 
         public string Genero { get; set; }
 
-        public int Año { get; set; }
-
         public string Pais { get; set; }
 
         public string Descripcion { get; set; }

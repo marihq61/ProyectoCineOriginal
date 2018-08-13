@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace Proyecto.DATA
 {
-    public class ReservaTiquete
+    public class Tanda
     {
         public int Numero { get; set; }
 
-        public string Cod_tiquete { get; set; }
+        public int Numero_Pelicula { get; set; }
 
-        public string Cod_reservacion { get; set; }
+        public DateTime Fecha { get; set; }
+
+        public int Numero_Sala { get; set; }
     }
 }

@@ -14,6 +14,6 @@ namespace Proyecto.DATA
 
         public byte[] Imagen { get; set; }
 
-        public int Pelicula { get; set; }
+        public int PeliculaPortada { get; set; }
     }
 }
