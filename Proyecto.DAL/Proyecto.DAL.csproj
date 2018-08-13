@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BEBB70A-B5F0-4284-A7F7-385D45037658}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proyecto.DAL</RootNamespace>
+    <AssemblyName>Proyecto.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\..\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\..\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite">
+      <HintPath>..\..\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.SqlServer">
+      <HintPath>..\..\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\..\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Conexion.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IAdministradores.cs" />
+    <Compile Include="Interfaces\ICliente.cs" />
+    <Compile Include="Interfaces\IFunciones.cs" />
+    <Compile Include="Interfaces\IPelicula.cs" />
+    <Compile Include="Interfaces\IPortada.cs" />
+    <Compile Include="Interfaces\IReservacion.cs" />
+    <Compile Include="Interfaces\IReservaTiquete.cs" />
+    <Compile Include="Interfaces\ISala.cs" />
+    <Compile Include="Interfaces\ITiquete.cs" />
+    <Compile Include="Interfaces\IUsuario.cs" />
+    <Compile Include="Interfaces\IVentanilla.cs" />
+    <Compile Include="Metodos\MAdministrador.cs" />
+    <Compile Include="Metodos\MBase.cs" />
+    <Compile Include="Metodos\MCliente.cs" />
+    <Compile Include="Metodos\MFunciones.cs" />
+    <Compile Include="Metodos\MPelicula.cs" />
+    <Compile Include="Metodos\MPortada.cs" />
+    <Compile Include="Metodos\MReservacion.cs" />
+    <Compile Include="Metodos\MReservaTiquete.cs" />
+    <Compile Include="Metodos\MSala.cs" />
+    <Compile Include="Metodos\MTIquete.cs" />
+    <Compile Include="Metodos\MUsuario.cs" />
+    <Compile Include="Metodos\MVentanilla.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Conexion.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Conexion.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

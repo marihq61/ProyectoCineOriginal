@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <img src="~/Imagenes/purge.png" alt="The purge" style="width:100%; height:30%;">
+                <div class="carousel-caption">
+                    @*<h3 class="titMovie">Purga 4</h3>
+                    <p class="descriMovie">Vuelve la 4ta. película</p>*@
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="~/Imagenes/antman.jpeg" alt="Antman" style="width:100%; height:30%;">
+                <div class="carousel-caption">
+                    @*<h3 class="titMovie">Ant Man 2</h3>
+                    <p class="descriMovie">Thank you, Ant Man</p>*@
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="~/Imagenes/fallout.jpeg" alt="Mision imposible" style="width:100%; height:30%;">
+                <div class="carousel-caption">
+                    @*<h3 class="titMovie">Imposible</h3>
+                    <p class="descriMovie">Mision Imposible 6</p>*@
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="~/Imagenes/transilvania.jpg" alt="Hotal transilvania" style="width:100%; height:30%;">
+                <div class="carousel-caption">
+                    @*<h3 class="titMovie">Hotel T3</h3>
+                    <p class="descriMovie">Aventura en Familia</p>*@
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
