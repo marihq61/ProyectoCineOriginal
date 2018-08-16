@@ -1,0 +1,20 @@
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\bin\Debug\Proyecto.DAL.dll.config
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\bin\Debug\Proyecto.DAL.dll
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\bin\Debug\Proyecto.DAL.pdb
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\bin\Debug\ServiceStack.Common.dll
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\bin\Debug\ServiceStack.Text.dll
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\obj\Debug\Proyecto.DAL.csprojAssemblyReference.cache
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\obj\Debug\Proyecto.DAL.csproj.CoreCompileInputs.cache
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\obj\Debug\Proyecto.DAL.csproj.CopyComplete
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\obj\Debug\Proyecto.DAL.dll
+C:\Users\marih\Documents\Cosas de la U\segundo cuatri de la U 2018\progra 5\ProyectoCine\Proyecto.DAL\obj\Debug\Proyecto.DAL.pdb
+G:\ProyectoCine-Develop\Proyecto.DAL\bin\Debug\Proyecto.DAL.dll.config
+G:\ProyectoCine-Develop\Proyecto.DAL\bin\Debug\Proyecto.DAL.dll
+G:\ProyectoCine-Develop\Proyecto.DAL\bin\Debug\Proyecto.DAL.pdb
+G:\ProyectoCine-Develop\Proyecto.DAL\obj\Debug\Proyecto.DAL.csprojResolveAssemblyReference.cache
+G:\ProyectoCine-Develop\Proyecto.DAL\obj\Debug\Proyecto.DAL.csproj.CoreCompileInputs.cache
+G:\ProyectoCine-Develop\Proyecto.DAL\obj\Debug\Proyecto.DAL.dll
+G:\ProyectoCine-Develop\Proyecto.DAL\obj\Debug\Proyecto.DAL.pdb
