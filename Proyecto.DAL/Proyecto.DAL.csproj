@@ -55,42 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conexion.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Conexion.settings</DependentUpon>
-    </Compile>
-    <Compile Include="Interfaces\IAdministradores.cs" />
-    <Compile Include="Interfaces\ICliente.cs" />
-    <Compile Include="Interfaces\IFunciones.cs" />
-    <Compile Include="Interfaces\IPelicula.cs" />
-    <Compile Include="Interfaces\IPortada.cs" />
-    <Compile Include="Interfaces\IReservacion.cs" />
-    <Compile Include="Interfaces\IReservaTiquete.cs" />
-    <Compile Include="Interfaces\ISala.cs" />
-    <Compile Include="Interfaces\ITiquete.cs" />
-    <Compile Include="Interfaces\IUsuario.cs" />
-    <Compile Include="Interfaces\IVentanilla.cs" />
-    <Compile Include="Metodos\MAdministrador.cs" />
-    <Compile Include="Metodos\MBase.cs" />
-    <Compile Include="Metodos\MCliente.cs" />
-    <Compile Include="Metodos\MFunciones.cs" />
-    <Compile Include="Metodos\MPelicula.cs" />
-    <Compile Include="Metodos\MPortada.cs" />
-    <Compile Include="Metodos\MReservacion.cs" />
-    <Compile Include="Metodos\MReservaTiquete.cs" />
-    <Compile Include="Metodos\MSala.cs" />
-    <Compile Include="Metodos\MTIquete.cs" />
-    <Compile Include="Metodos\MUsuario.cs" />
-    <Compile Include="Metodos\MVentanilla.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Conexion.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Conexion.Designer.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
